@@ -1,0 +1,41 @@
+.add_form {
+    display: flex;
+    justify-content: space-between;
+}
+.form_input {
+    width: 100%;
+    input {
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid #ffffff;
+        color: #eeeeee;
+
+        &:focus {
+            outline: none;
+            border-color: #ffffff;
+            box-shadow: none;
+        }
+    }
+}
+.add_btn {
+    width: 50px;
+    height: 45px;
+    margin-left: 30px;
+    font-size: 30px;
+    border-radius: 50%;
+    border-color: #ee9ca7;
+    box-shadow: 0 0 0 3px rgba(238, 156, 167, 0.2);
+
+    button {
+        width: 100%;
+        height: 100%;
+        display: block;
+        border: none;
+        background-color: #ee9ca7;
+        color: #fff;
+        border-radius: 50%;
+        cursor: pointer;
+        box-shadow: 0 0 12px 0 var(--add-button-shadow);
+    }
+}
